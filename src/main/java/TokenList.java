@@ -15,7 +15,7 @@ interface TokenList {
 
     /**
      *
-     * @pre index < size() and index > 0
+     * @pre index < size() and index >= 0
      * @post The element at location 'index' has been removed, preserving the previous order. The size of the TokenList has been reduced by 1.
      */
     void remove(int index);
